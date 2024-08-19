@@ -12,16 +12,20 @@ export default function Home() {
             {/* 中间的两个div元素 */}
             <div className="flex flex-col md:flex-row gap-4 mb-8">
                 <div className="w-full md:w-1/2 p-6 bg-white shadow-lg rounded-lg">
-                    <LuckyWheelPage/>
+                    <div className="text-gray-700">
+                        <LuckyWheelPage/>
+                    </div>
                 </div>
                 <div className="w-full md:w-1/2 p-6 bg-white shadow-lg rounded-lg">
-                    <LuckyGridPage/>
+                    <div className="text-gray-700">
+                        <LuckyGridPage/>
+                    </div>
                 </div>
             </div>
 
             {/* 底部文案 */}
             <footer className="text-gray-600 text-center my-8">
-                项目来源 https://gaga.plus @小傅哥
+                本项目来源 https://gaga.plus @小傅哥
             </footer>
         </div>
     );
